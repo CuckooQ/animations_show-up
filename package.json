@@ -1,0 +1,21 @@
+{
+  "name": "showup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/runtime-corejs3": "^7.15.3",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "babel-preset-env": "^1.7.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "gsap": "^3.7.1"
+  }
+}

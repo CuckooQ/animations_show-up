@@ -1,0 +1,31 @@
+img {
+  display: block;
+}
+
+section {
+  inline-size: 100%;
+  block-size: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #F6F5F0;
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+
+  .show-up {
+    inline-size: 120px;
+    block-size: 120px;
+    inset-block-start: 0;
+    inset-block-end: 0;
+    margin: auto 0;
+    opacity: 0;
+
+    img {
+      inline-size: inherit;
+      block-size: inherit;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, .15);;
+    }
+  }
+}
